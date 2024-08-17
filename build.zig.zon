@@ -1,0 +1,20 @@
+.{
+    .name = "mach_extras",
+    .version = "0.1.0",
+    //.minimum_zig_version = "0.13.0",
+
+    .dependencies = .{
+        .mach2 = .{
+            .path = "../hordurj_mach/mach",
+            //.url = "https://pkg.machengine.org/mach/b72f0e11b6d292c2b60789359a61f7ee6d7dc371.tar.gz",
+            //.hash = "122015e1dac4afaf275f7f2adde3814e6a27f5799cbef96bb487ee305f7e33f4dca3",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
